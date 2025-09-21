@@ -2,16 +2,7 @@ import { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { 
-  Heart, 
-  BookOpen, 
-  Calendar, 
-  Star, 
-  Sparkles,
-  Scroll,
-  Candle,
-  Shield
-} from 'lucide-react';
+import { Heart, BookOpen, Calendar, Star, Sparkles, Scroll, Candy as Candle, Shield } from 'lucide-react';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
